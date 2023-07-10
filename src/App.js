@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <table>
+        <thead>
+          <tr>
+            <th>Country</th>
+            <th>Code</th>
+            <th>Capital</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Korea</td>
+            <td>+82</td>
+            <td>Seoul</td>
+          </tr>
+          <tr>
+            <td>United States</td>
+            <td>+1</td>
+            <td>Washington, D.C.</td>
+          </tr>
+          <tr>
+            <td>France</td>
+            <td>+33</td>
+            <td>Paris</td>
+          </tr>
+        </tbody>
+      </table>
+    </>
   );
 }
 
